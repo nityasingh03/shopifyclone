@@ -1,0 +1,27 @@
+#u
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    stroke-width: 1px;
+    font-size: 35px;
+}
+#sub
+{
+    text-align: center;
+    color: rgb(97, 96, 96);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ghu
+{
+    display: flex;
+    justify-content: space-around;
+}
+.video-size {
+    height:50vw;
+    width:50vw;
+    overflow:hidden;
+}
+.video-size > video {
+    min-width: 50%;
+    min-height: 50%;
+}

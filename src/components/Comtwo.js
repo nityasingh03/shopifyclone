@@ -8,8 +8,8 @@ import './Comtwo.css';
 function comtwo() {
     return (
         <div id='com'>
-            <h2>Bring your business online
-            </h2>
+            <h1 className="hu">Bring your business online
+            </h1>
             <p>
                 Create an ecommerce website backed by powerful tools that help you find customers, drive sales, and manage your day-to-day.
             </p>
@@ -17,16 +17,18 @@ function comtwo() {
                 Explore more examples
             </div>
             <div className='flex'>
-                <img src={ex1} alt="ex1" />
-                <img src={ex2} alt="ex2" />
-                <img src={ex3} alt="ex3" />
-                <img src={ex4} alt="ex4" />
-                <img src={ex5} alt="ex5" />
+                <img className='flexn'src={ex1} alt="ex1" />
+                <img className='flexn' src={ex2} alt="ex2" />
+                <img className='flexn' src={ex3} alt="ex3" />
+                <img className='flexn' src={ex4} alt="ex4" />
+                <img className='flexn' src={ex5} alt="ex5" />
 
             </div>
-            <h2>
+            
+            <h1 className="hu">
                 Take the best path forward
-            </h2>
+            </h1>
+            <div className='ouy'>
             <div className='facility'>
                 <h3>
                     Start an online business
@@ -58,6 +60,7 @@ function comtwo() {
                 <p>
                     Get set up with the help of a trusted freelancer or agency from the Shopify Experts Marketplace.
                 </p>
+            </div>
             </div>
         </div>
     )

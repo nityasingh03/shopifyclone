@@ -1,4 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carme&display=swap');
 .hi
+{
+    font-family: 'Carme', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+#jo
+{
+    padding-top: 100px;
+}
+#gome
 {
     display: inline;
 }

@@ -1,4 +1,8 @@
-
+.icp
+{
+  width: 100px;
+  padding-bottom: 0px;
+}
 .menu
 { z-index: 100;
   display: inline-block;
@@ -23,18 +27,22 @@ li{
     justify-content: right;
 }
 button {
-    background-color: #095e25;
+    background-color: #007f61;
     border: none;
     color: white;
     padding: 15px 22px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 20px;
   }
 button:hover
 {
-    background-color: #095e3a;
+    background-color: #0d634e;
+}
+ul
+{
+  display: inline;
 }

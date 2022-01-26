@@ -1,10 +1,39 @@
-*
-{
-    margin: 0px 0px;
-    padding: 0px 0px;
-}
+
 #com
 {
-    background-color: rgb(30, 177, 91);
+    background-color: #007f61;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+
+.flexn
+{
+    float:left;
+    width: 20%;
+  padding: 10px;
+  width: 17vw;
+}
+.flex::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .hu
+  {
+      size: 90px;
+  }
+  .ouy
+  {
+      display: flex;
+      flex-direction: row;
+  }
+  .facility
+{
+    padding-right: 5px;
+    padding-left: 5px;
 }
